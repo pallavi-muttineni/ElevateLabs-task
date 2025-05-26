@@ -37,4 +37,4 @@ If you'd like to run this project on your own machine:
 ---
 ## Demo
 
-![Responsive Landing Page Demo](images/landing-page.jpg)
+![Responsive Landing Page Demo](images/landingpage.jpg)
