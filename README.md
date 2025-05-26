@@ -37,6 +37,4 @@ If you'd like to run this project on your own machine:
 ---
 ## Demo
 
-Here's a quick preview of the landing page in action:
-
-![Responsive Landing Page Demo](images/landing-page.gif)
+![Responsive Landing Page Demo](images/landing-page)
