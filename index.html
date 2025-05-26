@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet"
+    href="style.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="logo">
+            <a href="#">YourLogo</a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+<section class="hero">
+    <footer>
+    <div class="container">
+        <p>&copy; 2025 Your Company. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+<a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+<a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+    </div>
+</footer>
+    <div class="container">
+        <h1>Welcome to Our Awesome Service</h1>
+        <p>We provide the best solutions for your business needs. Join us today!</p>
+        <a href="#" class="btn">Get Started</a>
+    </div>
+</section>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>   
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const navToggle = document.querySelector('.nav-toggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (navToggle && mainNav) {
+            navToggle.addEventListener('click', () => {
+                mainNav.classList.toggle('active');
+                // Optional: For animating the nav-toggle icon (e.g., turning into an X)
+                // navToggle.classList.toggle('open');
+            });
+        }
+    });
+</script> 
+</body>
+</html>
